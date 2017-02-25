@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(39, 133, 216);
+	background-color: rgb(63, 147, 226);
 }
 
 .header-logo {
@@ -11,11 +11,43 @@ body {
 	height: 35px;
 }
 
-.signup-form {
+.signup-box {
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
-	height: 50px; /* delete */
 	border-radius: 5px;
 	background-color: white;
+}
+
+.form-title {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	padding-top: 35px;
+	padding-bottom: 40px;
+	color: rgb(70, 70, 70);
+}
+
+.signup-form input {
+	display: block;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+	border: 2px solid lightgrey;
+	border-radius: 3px;
+	width: 303px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.signup-form label{
+	display: block;
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
 }
