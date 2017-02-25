@@ -2,6 +2,7 @@ body {
 	background-color: rgb(63, 147, 226);
 }
 
+/*Header image*/
 .header-logo {
 	display: block;
 	margin-top: 50px;
@@ -11,6 +12,7 @@ body {
 	height: 35px;
 }
 
+/*Signup style*/
 .signup-box {
 	margin-left: auto;
 	margin-right: auto;
@@ -36,8 +38,8 @@ body {
 	padding-left: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	margin-bottom: 30px;
-	border: 2px solid lightgrey;
+	margin-bottom: 20px;
+	border: 2px solid rgb(225, 225, 225);
 	border-radius: 3px;
 	width: 303px;
 	font-size: 18px;
@@ -50,4 +52,47 @@ body {
 	margin-left: 40px;
 	margin-bottom: 20px;
 	font-family: 'Roboto', sans-serif;
+}
+
+.signup-form button {
+	width: 320px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	background-color: rgb(0, 204, 102);
+	border-radius: 3px;
+	border: 2px solid rgb(0, 204, 102);
+	color: white;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.signup-form button:hover {
+	background-color: rgb(0, 179, 89);
+	border: 2px solid rgb(0, 179, 89);
+}
+
+.signup-box a {
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	font-size: 14px;
+}
+
+.forgot-button {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+/*Rest of the page*/
+main > p {
+	margin-top: 20px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+main p > a {
+	color: white;
 }

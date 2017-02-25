@@ -20,14 +20,22 @@
 		<div class="signup-box">
 			<h2 class="form-title">Sign up</h2>
 			<!-- Signup form -->
-			<form class="signup-form" action="/signup/" method="post">
+			<form class="signup-form" action="./signup.html" method="post">
 				 <label for="email">Email</label>
      			 <input type="email" name="email" id="email"
      			 placeholder="foo@bar.com" />
+
      			 <label for="password">Password</label>
      			 <input type="password" name="password" placeholder="1234passw0rd">
+
+     			 <button type="submit">Sign up</button>
 			</form>
+			<div class="forgot-button">
+				<a href="/forgot-password/new">Forgot password?</a>
+			</div>
 		</div>
+		<p class="login-link">Already have an account?
+		<a href="/login">Log in</a></p>
 	</main>
 </body>
 </html>
